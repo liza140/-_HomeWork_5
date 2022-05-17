@@ -40,11 +40,9 @@ int CountEvenNumber(int[] array)
     return count;
 }
 
-int Num =10;
+int Num = 10;
 int[] Array = CreateArray(Num);
 FillArray(Array);
 Console.WriteLine(PrintArray(Array));
 Console.WriteLine();
 Console.WriteLine($"Количество четных элементов массива = {CountEvenNumber(Array)}");
-
-
